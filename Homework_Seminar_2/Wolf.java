@@ -1,4 +1,4 @@
-public class Wolf extends Predator implements Walkable{
+public class Wolf extends Carnivores implements Walkable, Swimable{
     public Wolf(String name) {
         super(name);
     }
@@ -16,5 +16,10 @@ public class Wolf extends Predator implements Walkable{
     @Override
     public int walkingSpeed() {
         return 70;
+    }
+
+    @Override
+    public int swimmingSpeed() {
+        return 10;
     }
 }

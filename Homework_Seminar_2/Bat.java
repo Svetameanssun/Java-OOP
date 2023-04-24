@@ -1,4 +1,4 @@
-public class Bat extends Predator implements Flyable{
+public class Bat extends Carnivores implements Flyable{
     public Bat(String name) {
         super(name);
     }

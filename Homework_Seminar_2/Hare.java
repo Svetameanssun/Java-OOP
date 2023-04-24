@@ -1,4 +1,4 @@
-public class Hare extends Herbivores implements Walkable {
+public class Hare extends Herbivores implements Walkable,Swimable {
 
     public Hare(String name) {
         super(name);
@@ -17,5 +17,10 @@ public class Hare extends Herbivores implements Walkable {
     @Override
     public int walkingSpeed() {
         return 80;
+    }
+
+    @Override
+    public int swimmingSpeed() {
+        return 5;
     }
 }
