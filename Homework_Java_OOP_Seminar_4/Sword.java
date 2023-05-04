@@ -3,11 +3,10 @@ public class Sword implements Weapon{
 
     @Override
     public int damage() {
-        return 15;
+        return 60;
     }
 
-    @Override
-    public String toString() {
+    @Override public String toString() {
         return String.format("Knife, max damage %d",damage());
     }
 }

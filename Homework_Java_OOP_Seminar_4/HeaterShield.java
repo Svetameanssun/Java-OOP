@@ -2,7 +2,7 @@ package Homework_Java_OOP_Seminar_4;
 public class HeaterShield implements Shield{
     @Override
     public int protection() {
-        return 30;
+        return 50;
     }
 
     @Override

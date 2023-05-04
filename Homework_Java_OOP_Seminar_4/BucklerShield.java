@@ -4,7 +4,7 @@ public class BucklerShield implements Shield{
 //    Здесь мы прописываем метод, который создали  в Shield
     @Override
     public int protection() {
-        return 20;
+        return 50;
     }
 
     @Override

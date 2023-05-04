@@ -2,6 +2,10 @@ package Homework_Java_OOP_Seminar_4;
 import java.util.Random;
 
 public abstract class Warrior<T extends Weapon, B extends Shield>{
+    public String getName() {
+        return name;
+    }
+
     private String name;
 
     public T getWeapon() {
@@ -15,6 +19,10 @@ public abstract class Warrior<T extends Weapon, B extends Shield>{
     }
 
     protected B shield;
+
+    public void setHealthPoints(int healthPoints) {
+        this.healthPoints = healthPoints;
+    }
 
     private int healthPoints;
 

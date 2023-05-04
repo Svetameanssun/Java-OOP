@@ -16,5 +16,10 @@ public class Main   {
         System.out.println("--------------------------");
         System.out.println(swordsmen);
 
+        Warrior archer1 = new Archer("Sir Arthur", new Bow(), new BucklerShield(),50);
+        Warrior swordsman1 = new Swordsman("Sir Brad", new Sword(),new HeaterShield(),50);
+        Battle battle = new Battle(swordsman1,archer1);
+        System.out.println(battle);
+
     }
 }

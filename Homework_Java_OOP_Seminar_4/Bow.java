@@ -3,7 +3,7 @@ public class Bow implements Weapon {
 
     @Override
     public int damage() {
-        return 20;
+        return 60;
     }
     protected int range(){
         return 50;
