@@ -1,3 +1,4 @@
+package Homework_Java_OOP_Seminar_4;
 public class KiteShield implements Shield{
     @Override
     public int protection() {

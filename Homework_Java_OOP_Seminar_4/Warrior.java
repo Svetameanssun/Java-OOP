@@ -1,6 +1,7 @@
+package Homework_Java_OOP_Seminar_4;
 import java.util.Random;
 
-public abstract class Warrior<T extends Weapon,T extends Shield>{
+public abstract class Warrior<T extends Weapon, B extends Shield>{
     private String name;
 
     public T getWeapon() {
@@ -9,16 +10,16 @@ public abstract class Warrior<T extends Weapon,T extends Shield>{
 
     protected T weapon;
 
-    public Shield getShield() {
+    public B getShield() {
         return shield;
     }
 
-    protected Shield shield;
+    protected B shield;
 
     private int healthPoints;
 
     //class Warrior constructor:
-    public Warrior(String name, T weapon, Shield shield, int healthPoints){
+    public Warrior(String name, T weapon, B shield, int healthPoints){
         this.name = name;
         this.weapon = weapon;
         this.shield = shield;

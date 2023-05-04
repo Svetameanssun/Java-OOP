@@ -1,3 +1,4 @@
+package Homework_Java_OOP_Seminar_4;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,7 +17,7 @@ public class Team<T extends Warrior> {
             stringBuilder.append(item);
             stringBuilder.append("\n");
         }
-        stringBuilder.append(String.format("healthPoints %s, damage %d, max range %d",healthPoints(), getDamage(), maxRange()));
+        stringBuilder.append(String.format("healthPoints %s, damage %d, max range %d, protection sum %d",healthPoints(), getDamage(), maxRange(), getProtection()));
         return stringBuilder.toString();
     }
 
@@ -33,6 +34,13 @@ public class Team<T extends Warrior> {
         for (T item:team
              ) {summa+=item.getWeapon().damage();
         }
+        return summa;
+    }
+
+    public int getProtection() {
+        int summa = 0;
+        for (T item : team)
+        {summa+=item.getShield().protection();}
         return summa;
     }
 
