@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java_OOP_Seminar_3/Java_OOP_Seminar_3.iml" filepath="$PROJECT_DIR$/Java_OOP_Seminar_3/Java_OOP_Seminar_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_OOP_Seminar_5/Java_OOP_Seminar_5.iml" filepath="$PROJECT_DIR$/Java_OOP_Seminar_5/Java_OOP_Seminar_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP_seminars.iml" filepath="$PROJECT_DIR$/OOP_seminars.iml" />
+    </modules>
+  </component>
+</project>
