@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Homework_Seminar_6_OOP/Homework_Seminar_6_OOP.iml" filepath="$PROJECT_DIR$/Homework_Seminar_6_OOP/Homework_Seminar_6_OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/OOP_homeworks.iml" filepath="$PROJECT_DIR$/.idea/OOP_homeworks.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_seminar1_OOP/task_1/task_1.iml" filepath="$PROJECT_DIR$/homework_seminar1_OOP/task_1/task_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_seminar1_OOP/task_2/task_2.iml" filepath="$PROJECT_DIR$/homework_seminar1_OOP/task_2/task_2.iml" />
